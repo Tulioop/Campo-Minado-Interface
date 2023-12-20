@@ -62,19 +62,19 @@ public class BotaoCampo extends JButton
 	}
 
 	private void aplicarEstiloExplodir() {
-		ImageIcon bombaIcon = new ImageIcon(getClass().getResource("/resultados-visuais/bomba.jpg"));
-		setIcon(bombaIcon);
+		// ImageIcon bombaIcon = new ImageIcon(getClass().getResource("/resultados-visuais/bomba.jpg"));
+		// setIcon(bombaIcon);
 		setBackground(BG_EXPLODIR);
 		setForeground(Color.WHITE);
-		setText("");
+		setText("E");
 	}
 
 	private void aplicarEstiloMarcar() {
-		ImageIcon bandeiraIcon = new ImageIcon(getClass().getResource("/resultados-visuais/bandeira.png"));
-		setIcon(bandeiraIcon);
+		// ImageIcon bandeiraIcon = new ImageIcon(getClass().getResource("/resultados-visuais/bandeira.png"));
+		// setIcon(bandeiraIcon);
 		setBackground(BG_MARCAR);
 		setForeground(Color.BLACK);
-		setText(""); 
+		setText("B"); 
 	}
 
 	private void aplicarEstiloAbrir() {
