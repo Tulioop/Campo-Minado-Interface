@@ -1,5 +1,6 @@
 package model;
 
-public class CampoEvento {
-    
+public enum CampoEvento {
+
+    ABRIR, MARCAR, DESMARCAR, EXPLODIR, REINICIAR;
 }

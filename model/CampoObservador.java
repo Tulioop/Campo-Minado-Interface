@@ -1,5 +1,8 @@
 package model;
 
-public class CampoObservador {
-    
+@FunctionalInterface
+
+public interface CampoObservador {
+
+    public void eventoOcorreu(Campo campo, CampoEvento evento);
 }
